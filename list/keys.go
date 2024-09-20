@@ -43,12 +43,12 @@ func DefaultKeyMap() KeyMap {
 			key.WithHelp("↓/j", "down"),
 		),
 		PrevPage: key.NewBinding(
-			key.WithKeys("left", "pgup", "b", "u"),
-			key.WithHelp("←/h/pgup", "prev page"),
+			key.WithKeys("left", "h", "pgup", "b", "u"),
+			key.WithHelp("←/h/pgup change", "prev page"),
 		),
 		NextPage: key.NewBinding(
-			key.WithKeys("right", "pgdown", "f", "d"),
-			key.WithHelp("→/l/pgdn", "next page"),
+			key.WithKeys("right", "l", "pgdown", "f", "d"),
+			key.WithHelp("→/l/pgdn change ", "next page"),
 		),
 		GoToStart: key.NewBinding(
 			key.WithKeys("home", "g"),
