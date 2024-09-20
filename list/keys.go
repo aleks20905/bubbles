@@ -44,11 +44,11 @@ func DefaultKeyMap() KeyMap {
 		),
 		PrevPage: key.NewBinding(
 			key.WithKeys("left", "h", "pgup", "b", "u"),
-			key.WithHelp("←/h/pgup change 2", "prev page"),
+			key.WithHelp("←/h/pgup", "prev page"),
 		),
 		NextPage: key.NewBinding(
 			key.WithKeys("right", "l", "pgdown", "f", "d"),
-			key.WithHelp("→/l/pgdn change 2 ", "next page"),
+			key.WithHelp("→/l/pgdn", "next page"),
 		),
 		GoToStart: key.NewBinding(
 			key.WithKeys("home", "g"),
